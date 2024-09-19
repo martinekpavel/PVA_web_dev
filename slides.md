@@ -22,64 +22,56 @@ Pavel Martínek
 
 ---
 
-# What is Slidev?
+# Cíl lekce a získané dovednosti
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
 <br>
 <br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+## HTML
 
+- block & inline
+- div id (#) & class (.)
+- entitis
+- semantické (významové) tagy
+
+---
+
+# HTML Block and Inline Elements
+
+[HTML Block and Inline Elements (w3schools.com)](https://www.w3schools.com/html/html_blocks.asp)
+
+ <kbd>p lorem</kbd> 
+ <kbd>a</kbd> 
+
+ ```html
+style="border: 2px green solid
+```
+
+---
+
+# id & class
+ 
+```html
 <style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
+  #foo {
+    color: blue;
+  }
+  .baz {
+    color: red;
+  }
 </style>
+<h2 id="foo">
+<h2 class="baz">
+```
 
-<!--
-Here is another comment.
--->
+## Specificity
 
----
-transition: slide-up
-level: 2
----
+1. inline
+2. id
+3. class
+4. type
 
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+Více zde: [CSS Specificity](https://www.w3schools.com/css/css_specificity.asp)
 
 ---
 layout: two-cols
