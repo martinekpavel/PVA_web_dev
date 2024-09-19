@@ -52,14 +52,6 @@ style="border: 2px green solid
 # id & class
  
 ```html
-<style>
-  #foo {
-    color: blue;
-  }
-  .baz {
-    color: red;
-  }
-</style>
 <h2 id="foo">
 <h2 class="baz">
 ```
