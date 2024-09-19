@@ -40,14 +40,12 @@ Pavel Martínek
 
 [HTML Block and Inline Elements (w3schools.com)](https://www.w3schools.com/html/html_blocks.asp)
 
- <p><kbd>p lorem</kbd></p>
- <p><kbd>a</kbd></p>
+<p><kbd>p lorem</kbd></p>
+<p><kbd>a</kbd></p>
 
- ```html
+```html
 style="border: 2px green solid
 ```
-
----
 
 --- 
 
