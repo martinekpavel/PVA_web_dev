@@ -40,8 +40,8 @@ Pavel Martínek
 
 [HTML Block and Inline Elements (w3schools.com)](https://www.w3schools.com/html/html_blocks.asp)
 
- <kbd>p lorem</kbd> 
- <kbd>a</kbd> 
+ <p><kbd>p lorem</kbd></p>
+ <p><kbd>a</kbd></p>
 
  ```html
 style="border: 2px green solid
@@ -49,9 +49,11 @@ style="border: 2px green solid
 
 ---
 
+--- 
+
 # id & class
  
-<!-- ```html
+```html
 <style>
   #foo {
     color: blue;
@@ -62,7 +64,7 @@ style="border: 2px green solid
 </style>
 <h2 id="foo">
 <h2 class="baz">
-``` -->
+```
 
 ## Specificity
 
