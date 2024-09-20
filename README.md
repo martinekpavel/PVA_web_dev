@@ -1,11 +1,7 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Prezentation
 
-To start the slide show:
+[https://martinekpavel.github.io/PVA_web_dev/1]
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
+by [Slidev](https://github.com/slidevjs/slidev)!
 
 Learn more about Slidev at the [documentation](https://sli.dev/).
