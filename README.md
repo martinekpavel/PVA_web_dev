@@ -1,6 +1,6 @@
 # Prezentation
 
-[https://martinekpavel.github.io/PVA_web_dev/1]
+https://martinekpavel.github.io/PVA_web_dev/
 
 by [Slidev](https://github.com/slidevjs/slidev)!
 
